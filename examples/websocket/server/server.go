@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/francoispqt/gojay/examples/websocket/comm"
+	"github.com/mk1018/gojay/examples/websocket/comm"
 	"golang.org/x/net/websocket"
 )
 

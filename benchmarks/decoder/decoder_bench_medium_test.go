@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/buger/jsonparser"
-	"github.com/francoispqt/gojay"
-	"github.com/francoispqt/gojay/benchmarks"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/mailru/easyjson"
+	"github.com/mk1018/gojay"
+	"github.com/mk1018/gojay/benchmarks"
 )
 
 func BenchmarkJsonIterDecodeObjMedium(b *testing.B) {
@@ -20,7 +20,7 @@ func BenchmarkJsonIterDecodeObjMedium(b *testing.B) {
 }
 
 /*
-   github.com/buger/jsonparser
+github.com/buger/jsonparser
 */
 func BenchmarkJSONParserDecodeObjMedium(b *testing.B) {
 	b.ReportAllocs()

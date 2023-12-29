@@ -2,15 +2,15 @@ package codegen
 
 import (
 	"fmt"
+	"github.com/viant/toolbox"
 	"go/format"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
-	"github.com/viant/toolbox"
 )
 
-const gojayPackage = "github.com/francoispqt/gojay"
+const gojayPackage = "github.com/mk1018/gojay"
 
 // Generator holds the content to generate the gojay code
 type Generator struct {

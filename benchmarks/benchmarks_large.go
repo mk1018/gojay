@@ -3,7 +3,7 @@ package benchmarks
 import (
 	"strconv"
 
-	"github.com/francoispqt/gojay"
+	"github.com/mk1018/gojay"
 )
 
 type DSUser struct {

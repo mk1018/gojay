@@ -3,8 +3,8 @@ package benchmarks
 import (
 	"testing"
 
-	"github.com/francoispqt/gojay"
-	"github.com/francoispqt/gojay/benchmarks"
+	"github.com/mk1018/gojay"
+	"github.com/mk1018/gojay/benchmarks"
 	"github.com/stretchr/testify/assert"
 )
 

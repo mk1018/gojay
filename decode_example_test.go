@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/francoispqt/gojay"
+	"github.com/mk1018/gojay"
 )
 
 func ExampleUnmarshal_string() {
@@ -51,7 +51,7 @@ func ExampleDecoder_Decode_string() {
 func ExampleDecodeObjectFunc() {
 	reader := strings.NewReader(`{
 		"name": "John Doe",
-		"email": "john.doe@email.com" 
+		"email": "john.doe@email.com"
 	}`)
 	dec := gojay.NewDecoder(reader)
 

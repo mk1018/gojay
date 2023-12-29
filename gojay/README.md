@@ -5,7 +5,7 @@ This package provides a command line tool to generate gojay's marshaling and unm
 ## Get started
 
 ```sh
-go install github.com/francoispqt/gojay/gojay
+go install github.com/mk1018/gojay/gojay
 ```
 
 ## Generate code
@@ -58,4 +58,3 @@ type A struct {
 	EndTime      *time.Time `json:"endDate" timeLayout:"2006-01-02 15:04:05"`
 }
 ```
-

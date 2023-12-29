@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/francoispqt/gojay"
+	"github.com/mk1018/gojay"
 	"github.com/stretchr/testify/require"
 )
 
@@ -70,7 +70,7 @@ var jsonData = `{
   "MessagesX": [
     {
       "Id": 2102,
-      "Description": "abce", 
+      "Description": "abce",
 	  "StartTime": "0001-01-01T00:00:00Z"
 	}
   ],
@@ -82,7 +82,7 @@ var jsonData = `{
   "MessagesY": [
     {
       "Id": 5102,
-      "Description": "abcg", 
+      "Description": "abcg",
 	  "StartTime": "0001-01-01T00:00:00Z"
 	},
     {
